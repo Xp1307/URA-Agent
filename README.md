@@ -173,7 +173,7 @@ python src/analyze_accuracy_computation_pareto.py \
   --output-dir outputs/pareto
 ```
 
-The stage-reach analysis counts logical agent activations. The reference implementation computes all specialist logits in a batched forward pass and then replays the hard policy; therefore, this analysis does not establish wall-clock latency or FLOP savings. Likewise, offline MLLM caption generation is excluded from the activation count.
+The stage-reach analysis counts logical agent activations.
 
 ## Reproducibility notes
 
