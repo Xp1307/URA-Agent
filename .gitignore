@@ -1,0 +1,49 @@
+# Data and pretrained models
+datasets/
+data/
+pretrained_models/
+models/
+huggingface_cache/
+
+# Training artifacts
+artifacts/
+outputs/
+checkpoints/
+logs/
+wandb/
+runs/
+
+# Model and array files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.npz
+*.npy
+
+# Generated figures and reports
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editors
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+

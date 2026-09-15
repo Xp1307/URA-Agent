@@ -1,0 +1,27 @@
+{
+  "seeds": [13, 21, 42, 55, 67, 73, 87, 101, 123, 2026],
+  "shared": {
+    "epochs": 15,
+    "batch_size": 16,
+    "encoder_lr": 1e-5,
+    "head_lr": 2e-4,
+    "weight_decay": 0.01,
+    "text_layers": 4,
+    "vision_layers": 2,
+    "pooling": "cls_mean",
+    "class_weighting": "balanced",
+    "selection_metric": "accuracy",
+    "patience": 4
+  },
+  "weibo": {
+    "text_model": "bert-base-chinese",
+    "vision_model": "google/vit-base-patch16-224-in21k",
+    "agent_text_source": "text_ft"
+  },
+  "pheme": {
+    "text_model": "roberta-base",
+    "vision_model": "google/vit-base-patch16-224-in21k",
+    "agent_text_source": "text_refine"
+  }
+}
+
